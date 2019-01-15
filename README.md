@@ -4,7 +4,7 @@
 
 ## 2019
 
-### [2019-01-15 Make a character talk](./examples/2019-01-15 Make a character talk/README.md)
+### [2019-01-15 Make a character talk](./examples/2019-01-15%20Make%20a%20character%20talk/README.md)
 
 A small experiment to show how to make a 2D Character talk using only web technology (HTML5 Canvas + WebGL + WebSpeech) and with the help of pixi.js.
 

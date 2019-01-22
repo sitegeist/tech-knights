@@ -1,0 +1,29 @@
+version: '3.6'
+services:
+  php:
+    build: 
+      dockerfile: php.dockerfile
+      context: ./build/docker
+    entrypoint: tail -f /dev/null
+    working_dir: /app
+    volumes:
+      - vendor:/app/vendor:delegated
+      - ./build:/app/build
+      - ./src:/app/src
+      - ./composer.json:/app/composer.json
+      - ./composer.lock:/app/composer.lock
+
+  neo4j:
+    image: neo4j:3.0
+    environment:
+      - NEO4J_AUTH=neo4j/admin
+    ports:
+
+      # HTTP interface
+      - 7474:7474
+
+      # Bolt connection
+      - 7687:7687
+  
+volumes:
+  vendor:

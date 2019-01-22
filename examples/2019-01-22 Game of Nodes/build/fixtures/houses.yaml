@@ -1,0 +1,73 @@
+baratheon:
+  name: Baratheon
+  allies-with: [lannister]
+  enemies-with: [baratheon-stannis, baratheon-renly, stark, tully, greyjoy]
+
+baratheon-stannis:
+  name: Baratheon (Stannis)
+  enemies-with: [baratheon-renly, lannister, stark, greyjoy]
+
+baratheon-renly:
+  name: Baratheon (Renly)
+  allies-with: [tyrell]
+  friends-with: [stark]
+  enemies-with: [baratheon-stannis, lannister]
+
+stark:
+  name: Stark
+  friends-with: [baratheon-renly, arryn]
+  allies-with: [tully]
+  enemies-with: [lannister]
+
+arryn:
+  name: Arryn of the Eyrie
+  friends-with: [stark, tully]
+  enemies-with: [lannister]
+
+tully:
+  name: Tully
+  friends-with: [stark, arryn]
+  enemies-with: [lannister]
+
+greyjoy:
+  name: Greyjoy
+  enemies-with: [baratheon-stannis, baratheon-renly, stark, lannister, tyrell]
+
+lannister:
+  name: Lannister of Casterly Rock
+  enemies-with: [baratheon-stannis, baratheon-renly, stark, arryn, tully, greyjoy]
+
+tyrell:
+  name: Tyrell
+  allies-with: [baratheon-renly]
+
+martell:
+  name: Martell
+
+clegane:
+  name: Clegane
+  sworn-to: lannister
+
+frey:
+  name: Frey
+  sworn-to: tully
+
+tarly:
+  name: Tarly
+  sworn-to: tyrell
+
+umber:
+  name: Umber
+  sworn-to: stark
+
+carstark:
+  name: Carstark
+  sworn-to: stark
+
+mormont:
+  name: Mormont
+  sworn-to: stark
+
+bolton:
+  name: Bolton
+  sworn-to: stark

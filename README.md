@@ -4,6 +4,10 @@
 
 ## 2019
 
+### [2019-01-22 Game of Nodes](./examples/2019-01-22%20Game%20of%20Nodes/README.md)
+
+Short introduction to using Neo4j with PHP. The example databases contains an (incomplete and partially inaccurate) set of houses, characters and castles of Westeros as well as the relationships between them at the beginning of the war of the 5 kings as known from the popular book series "A song of ice and fire" by George R. R. Martin (a.k.a. "Game of Thrones", the HBO tv series).
+
 ### [2019-01-15 Make a character talk](./examples/2019-01-15%20Make%20a%20character%20talk/README.md)
 
 A small experiment to show how to make a 2D Character talk using only web technology (HTML5 Canvas + WebGL + WebSpeech) and with the help of pixi.js.

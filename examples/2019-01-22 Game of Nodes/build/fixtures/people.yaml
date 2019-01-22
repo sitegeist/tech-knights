@@ -1,0 +1,168 @@
+ned-stark:
+  name: Eddard Stark
+  member-of: stark
+
+cat-stark:
+  name: Catelyn Stark
+  member-of: stark
+
+robb-stark:
+  name: Robb Stark
+  member-of: stark
+
+sansa-stark:
+  name: Sansa Stark
+  member-of: stark
+
+arya-stark:
+  name: Arya Stark
+  member-of: stark
+
+bran-stark:
+  name: Brandon Stark
+  member-of: stark
+
+rickon-stark:
+  name: Rickon Stark
+  member-of: stark
+
+theon-greyjoy:
+  name: Theon Greyjoy
+  member-of: greyjoy
+
+yara-greyjoy:
+  name: Yara Greyjoy
+  member-of: greyjoy
+
+balon-greyjoy:
+  name: Balon Greyjoy
+  member-of: greyjoy
+
+euron-greyjoy:
+  name: Euron Greyjoy
+  member-of: greyjoy
+
+tyrion-lannister:
+  name: Tyrion Lannister
+  member-of: lannister
+
+cercei-lannister:
+  name: Cersei Lannister
+  member-of: lannister
+
+jamie-lannister:
+  name: Jamie Lannister
+  member-of: lannister
+
+tywin-lannister:
+  name: Tywin Lannister
+  member-of: lannister
+  enemies-with: [sandor-clegane]
+
+kevan-lannister:
+  name: Kevan Lannister
+  member-of: lannister
+
+lancel-lannister:
+  name: Lancel Lannister
+  member-of: lannister
+
+tommen-baratheon:
+  name: Tommen Baratheon
+  member-of: baratheon
+
+myrcella-baratheon:
+  name: Myrcella Baratheon
+  member-of: baratheon
+
+joffrey-baratheon:
+  name: Joffrey Baratheon
+  member-of: baratheon
+
+robert-baratheon:
+  name: Robert Baratheon
+  member-of: baratheon
+
+renly-baratheon:
+  name: Renly Baratheon
+  member-of: baratheon-renly
+
+stannis-baratheon:
+  name: Stannis Baratheon
+  member-of: baratheon-stannis
+
+hoster-tully:
+  name: Hoster Tully
+  member-of: tully
+
+blackfish:
+  name: The Blackfish
+  member-of: tully
+
+edmure-tully:
+  name: Edmure Tully
+  member-of: tully
+
+jon-arryn:
+  name: Jon Arryn
+  member-of: arryn
+
+lisa-arryn:
+  name: Lisa Arryn
+  member-of: arryn
+
+robin-arryn:
+  name: Robin Arryn
+  member-of: arryn
+
+olenna-tyrell:
+  name: Olenna Tyrell
+  member-of: tyrell
+
+mace-tyrell:
+  name: Mace Tyrell
+  member-of: tyrell
+
+margaery-tyrell:
+  name: Margaery Tyrell
+  member-of: tyrell
+
+loras-tyrell:
+  name: Loras Tyrell
+  member-of: tyrell
+
+doran-martell:
+  name: Doran Martell
+  member-of: martell
+
+trystane-martell:
+  name: Trystane Martell
+  member-of: martell
+
+oberyn-martell:
+  name: Oberyn Martell
+  member-of: martell
+
+sandor-clegane:
+  name: Sandor "The Hound" Clegane
+  member-of: clegane
+
+gregor-clegane:
+  name: Gregor "The Mountain" Clegane
+  member-of: clegane
+
+lyanna-mormont:
+  name: Lyanna Mormont
+  member-of: mormont
+
+jeor-mormont:
+  name: Jeor Mormont
+  member-of: mormont
+
+jorah-mormont:
+  name: Jorah Mormont
+  member-of: mormont
+
+roose-bolton:
+  name: Roose Bolton
+  member-of: bolton

@@ -1,0 +1,23 @@
+winterfell:
+  name: Winterfell
+  belongs-to: stark
+
+casterly-rock:
+  name: Casterly Rock
+  belongs-to: lannister
+
+highgarden:
+  name: Highgarden
+  belongs-to: tyrell
+
+riverrun:
+  name: Riverrun
+  belongs-to: tully
+
+dreadfort:
+  name: The Dreadfort
+  belongs-to: bolton
+
+dragonstone:
+  name: Dragonstone
+  belongs-to: baratheon-stannis

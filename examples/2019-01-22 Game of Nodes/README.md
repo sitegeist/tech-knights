@@ -18,7 +18,7 @@ This should spin up all containers, install the composer dependencies and popula
 
 Go to `http://127.0.0.1:7474/browser/` in a browser of your choice. Then log in with the credentials `neo4j` and `admin`.
 
-After that you should see the Neo4j dashboard with a cypher console on top. Enter the following cypher query into the console adn hit "(▶) Play":
+After that you should see the Neo4j dashboard with a cypher console on top. Enter the following cypher query into the console and hit "(▶) Play":
 
 ```cypher
 MATCH (n) OPTIONAL MATCH (n)-[r]-() RETURN n,r LIMIT 100

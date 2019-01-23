@@ -12,7 +12,7 @@ Just run the `install` make target:
 make install
 ```
 
-This should spin up all containers, install the composer dependencies and populate die database with fixture data.
+This should spin up all containers, install the composer dependencies and populate the database with fixture data.
 
 ## Take a look at the database
 

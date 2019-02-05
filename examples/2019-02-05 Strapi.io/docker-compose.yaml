@@ -1,0 +1,47 @@
+version: '3.6'
+services:
+
+  strapi:
+    image: postgres:11.1-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: toor
+      POSTGRES_USER: toor
+      POSTGRES_DB: strapi
+    volumes:
+      - strapi-data:/var/lib/postgresql/data
+    ports:
+      - "8086:5432"
+
+  products:
+    image: postgres:11.1-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: toor
+      POSTGRES_USER: toor
+      POSTGRES_DB: products
+    volumes:
+      - products-data:/var/lib/postgresql/data
+    ports:
+      - "8087:5432"
+
+  cache:
+    image: redis:4-alpine
+    volumes:
+      - cache-data:/data
+    ports:
+      - "8089:6379"
+
+  adminer:
+    image: adminer:4.7.1
+    restart: always
+    ports:
+      - 8080:8080
+
+volumes:
+  strapi-data:
+    driver: local
+  products-data:
+    driver: local
+  cache-data:
+    driver: local

@@ -4,7 +4,7 @@
 
 ## 2019
 
-### [2019-02-05 Strapi.io](./example/2019-02-05%20Strapi.io/README.md)
+### [2019-02-05 Strapi.io](./examples/2019-02-05%20Strapi.io/README.md)
 
 Small example setup for a strapi.io project, using strapi version `v3.0.0-alpha`. Strapi is a headless CMS for Node.js, allowing for GUI-driven data schema design and handling editing, publishing add access restriction to data in various data types. It comes with a built-in RESTful API for content delivery, but can easily be extended with a GraphQL API as well.
 

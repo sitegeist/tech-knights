@@ -69,7 +69,7 @@ make init-example
 Now example Apis, graphql and automatic documentation are initialized
 
 Admin:
-* http://localhost:1337/adminer
+* http://localhost:1337/admin
 
 Static frontend:
 * http://localhost:1337
